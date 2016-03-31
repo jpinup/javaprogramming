@@ -21,6 +21,7 @@
 			<groupId>org.jbpm</groupId>
 			<artifactId>jbpm-workitems</artifactId>
 			<version>${jbpm.version}</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>

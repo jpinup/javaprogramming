@@ -1,4 +1,4 @@
-package com.sample;
+package com.jpinup.handler;
 
 import java.util.HashMap;
 
@@ -12,6 +12,7 @@ public class CustomTaskItemHandler implements WorkItemHandler {
 	}
 
 	public void executeWorkItem(WorkItem workItem, WorkItemManager manager) {
+		System.out.println("***** OK ****");
 		manager.completeWorkItem(workItem.getId(), new HashMap <String, Object>());
 	}
 

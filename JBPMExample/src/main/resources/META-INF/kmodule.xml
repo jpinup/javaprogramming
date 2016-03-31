@@ -8,7 +8,7 @@
 			scope="javax.enterprise.context.ApplicationScoped">
 			<workItemHandlers>
 				<workItemHandler name="CustomTask"
-					type="new com.sample.CustomTaskItemHandler()" />
+					type="new com.jpinup.handler.CustomTaskItemHandler()" />
 			</workItemHandlers>
 		</ksession>
 	</kbase>
